@@ -1,0 +1,26 @@
+{
+  "name": "@small-things/small-things-utilities",
+  "version": "1.0.1",
+  "description": "this package is designed as a part of reusable component for my personal projects ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishaljadhav/small-things-utilities.git"
+  },
+  "keywords": [
+    "utilities",
+    "reactjs"
+  ],
+  "author": "Vishal Jadhav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vishaljadhav/small-things-utilities/issues"
+  },
+  "homepage": "https://github.com/vishaljadhav/small-things-utilities#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
