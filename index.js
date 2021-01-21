@@ -54,3 +54,9 @@ module.export.daysToGo = (date) => {
     }
     return result;
 }
+
+
+// get the days, weeks, months for given date 
+module.export.formatDate = (datetimestamp = new Date(), format) => {
+    return moment(datetimestamp).format(format);
+}
