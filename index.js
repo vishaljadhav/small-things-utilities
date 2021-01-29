@@ -12,9 +12,9 @@ module.export.isEmpty = (obj) => {
 
 
 // get the days, weeks, months from given date 
-module.export.daysAgo = (date) => {
+module.export.daysAgo = (rq_date) => {
 
-    let date = moment(date),
+    let date = moment(rq_date),
         now = moment(),
         days = now.diff(date, "days"),
         weeks = now.diff(date, "weeks"),
@@ -34,9 +34,9 @@ module.export.daysAgo = (date) => {
 }
 
 // get the days, weeks, months for given date 
-module.export.daysToGo = (date) => {
+module.export.daysToGo = (rq_date) => {
 
-    let date = moment(date),
+    let date = moment(rq_date),
         now = moment(),
         days = date.diff(now, "days"),
         weeks = date.diff(now, "weeks"),
