@@ -1,6 +1,6 @@
 {
   "name": "@small-things/small-things-utilities",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "this package is designed as a part of reusable component for my personal projects ",
   "type": "module",
   "main": "src/index.js",

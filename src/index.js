@@ -1,7 +1,7 @@
 import moment from 'moment';
 
 // check if object is not empty 
-export default isEmpty = (obj) => {
+export const isEmpty = (obj) => {
     for (var key in obj) {
         if (obj.hasOwnProperty(key))
             return false;
@@ -11,7 +11,7 @@ export default isEmpty = (obj) => {
 
 
 // get the days, weeks, months from given date 
-export default daysAgo = (rq_date) => {
+export const daysAgo = (rq_date) => {
 
     let date = moment(rq_date),
         now = moment(),
@@ -33,7 +33,7 @@ export default daysAgo = (rq_date) => {
 }
 
 // get the days, weeks, months for given date 
-export default daysToGo = (rq_date) => {
+export const daysToGo = (rq_date) => {
 
     let date = moment(rq_date),
         now = moment(),
@@ -56,12 +56,12 @@ export default daysToGo = (rq_date) => {
 
 
 // get the days, weeks, months for given date 
-export default formatDate = (datetimestamp = new Date(), format) => {
+export const formatDate = (datetimestamp = new Date(), format) => {
     return moment(datetimestamp).format(format);
 }
 
 
-export default encodeFormData = (data) => {
+export const encodeFormData = (data) => {
     let formBody = [];
 
     for (let property in data) {
@@ -73,5 +73,3 @@ export default encodeFormData = (data) => {
 
     return formBody;
 };
-
-
